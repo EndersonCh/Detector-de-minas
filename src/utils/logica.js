@@ -95,12 +95,5 @@ class Minas {
     }
 }
 
-// (() => {
-//     const mina = new Minas();
-//     mina.carga("minas.in");
-//     mina.buscarMinas();
-//     mina.resultado();
-    
-// })();
 
 export default Minas;
