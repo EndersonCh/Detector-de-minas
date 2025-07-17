@@ -1,12 +1,14 @@
-# React + Vite
+# Detector de Minas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este programa analiza matrices NxM cuyo datos representan diferentes densidades del subsuelo, permitiendo saber en que pocisiones de la misma existen areas de interes geologico
 
-Currently, two official plugins are available:
+La matriz debe ser suministrada en el siguiente formato donde 5 es el numero de filas y 7 el numero de columnas, el formato puede ser `.in` o `.txt`
+```
+5 7
+10 12 15 20 25 22 18 
+8 11 14 30 40 35 20 
+9 13 16 28 38 32 21 
+7 10 13 25 30 28 19 
+5 8 11 18 22 20 15
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
