@@ -1,0 +1,151 @@
+#root {
+  max-width: fit-content;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+
+}
+
+.logo {
+  justify-self: left;
+  margin-left: 10px;
+
+}
+
+.cabecera {
+  display: flex;
+  justify-self: center;
+  justify-content: left;
+  border-style: solid;
+  border-color: #c2c2c2;
+  border-width: 2px;
+
+  width: 80vw;
+  align-items: center;
+  height: 70px;
+  margin: 10px;
+  border-radius: 8px;
+
+}
+
+.cabecera h1 {
+  justify-content: right;
+  padding: auto;
+  padding-left: 30px;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20pt;
+
+
+
+}
+
+.main-container {
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+  gap: 10px;
+  ;
+  width: 80vw;
+  padding: 0;
+  margin: 10px;
+
+  box-sizing: border-box;
+}
+
+.right-container {
+
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  border-color: #c2c2c2;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  width: 300px;
+
+}
+
+.right-container pre {
+  height: 400px;
+  width: 275px;
+  overflow: auto;
+  white-space: pre;
+  background-color: #232222;
+  color: #eee;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.left-container {
+  justify-content: center;
+  flex: 1 auto;
+  background-image: url(./fondoopaco.png);
+  min-width: 300px;
+  min-height: 200px;
+  background-size: cover;
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+  max-width: 1500px;
+  overflow: auto;
+}
+
+
+.container {
+
+  display: flex;
+  gap: 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.fila_matriz {
+  display: flex;
+  gap: 0px;
+
+}
+
+.fila_nColumnas {
+  display: flex;
+  gap: 0px;
+
+}
+
+.pie-info {
+  display: flex;
+  flex-direction: row;
+  border-color: #c2c2c2;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  height: 50;
+  margin: 10px;
+  padding: 0;
+  margin-top: 10px;
+  gap: 100px;
+  justify-content: left;
+  padding: auto;
+  padding-left: 30px;
+  text-align: center;
+
+}
+
+.pie-info h3 {
+  font-family: Helvetica;
+  font-weight: lighter;
+
+}
+
+.instrucciones {
+  justify-self: left;
+  text-align: left;
+  justify-content: left;
+}
