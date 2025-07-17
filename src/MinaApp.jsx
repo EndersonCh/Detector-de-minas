@@ -213,7 +213,7 @@ function MinaApp() {
                         className='button-generar'
                         
                     >
-                        Generar .txt
+                        Exportar 
                     </button>
                 </a>
           </div>
