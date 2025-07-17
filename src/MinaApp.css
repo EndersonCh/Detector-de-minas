@@ -84,7 +84,7 @@
 .left-container {
   justify-content: center;
   flex: 1 auto;
-  background-image: url(./fondoopaco.png);
+  background-image: url(/fondoopaco.png);
   min-width: 300px;
   min-height: 200px;
   background-size: cover;
